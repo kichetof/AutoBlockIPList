@@ -2,6 +2,8 @@
 
 > This script allows you to automate the update of the IP block list on the Synology NAS from a list of IP's _(custom user or external list)_.
 
+_This script was only tested with Synology DSM 6 (6.2.4)_
+
 ---
 
 ### Table of contents
@@ -41,6 +43,21 @@
     --version             show program's version number and exit
 
 ---
+
+#### Requirements
+
+In DSM 6, **install package python3**.
+
+Connect to your NAS though SSH and execute following commands:
+
+`sudo python3 -m ensurepip`
+
+Go to AutoBlockIPList folder and run
+
+`sudo python3 -m pip install -r requirements.txt`
+
+---
+
 #### First use
 Before to run this script in your schedule tasks, perform some single run in SSH.
 
