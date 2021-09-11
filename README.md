@@ -75,7 +75,7 @@ Next with `--in-file` or `--in-url` and `--dry-run`.
 
   - Go to Control Panel -> Task scheduler
   ![Task scheduler](docs/task_scheduler.png)
-  - Setting up the task
+  - Setting up the task as "**root**" user
   ![Task settings](docs/edit_task.png)
   
 ___
